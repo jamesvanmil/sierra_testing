@@ -4,7 +4,10 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.2'
 
 # Use ActiveSierra models
-gem 'active-sierra', git: 'git@github.uc.edu:uclibs/active-sierra.git'
+gem 'active-sierra', git: 'git@github.com:uclibs/active-sierra.git'
+
+# Use resque
+gem 'resque', :require => "resque/server"
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'

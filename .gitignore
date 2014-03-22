@@ -15,6 +15,6 @@
 /log/*.log
 /tmp
 
-# Ignore the database congif yaml, which contains secret information
-/config/database.yml
+# Ignore the sierra yaml, which contains secret information
+/config/sierra.yml
 

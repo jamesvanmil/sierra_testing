@@ -4,7 +4,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.2'
 
 # Use ActiveSierra models
-gem 'active-sierra', git: 'git@github.com:uclibs/active-sierra.git'
+#gem 'active-sierra', git: 'git@github.com:uclibs/active-sierra.git'
+gem 'active_sierra', path: '~/Development/gems/active_sierra'
 
 # Use resque
 gem 'resque', :require => "resque/server"
